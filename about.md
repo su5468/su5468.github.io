@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-사이버 세계를 떠도는 낭인
+사이버 세계를 떠도는 낭인.
 응애임
 
 ### More Information
