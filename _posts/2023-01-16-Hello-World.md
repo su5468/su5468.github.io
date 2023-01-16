@@ -4,7 +4,7 @@ categories: [백준]
 title: BOJ 1918 후위 표기식
 ---
 
-'''python
+```python
 exp = input()
 
 stack = []
@@ -38,4 +38,4 @@ while stack:
 	print(stack.pop(), end = '')
 
 print('')
-'''
+```
