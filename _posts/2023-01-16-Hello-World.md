@@ -4,21 +4,34 @@ categories: [백준]
 title: BOJ 1918 후위 표기식
 ---
 
+[문제 링크](https://www.acmicpc.net/problem/1918)
+
+연산자 표기법에 관련된 문제이다.  
+굉장히 유명한 주제이고, 나도 분명 이전에 전공 수업에서 배운 내용이었지만, 기억이 가물가물해서 새로운 마음으로 풀 수 있었다.
+
+기본적으로 스택을 사용한다는 것은 기억하고 있었기 때문에, 우선 스택을 만들었다.  
+그 후, 변환 과정에서 괄호를 사용한다는 점에서 연산자의 우선순위를 고려해야 한다는 것을 착안, 우선순위 테이블을 만들었다.  
+들어오는 연산자의 우선순위를 스택의 마지막 원소와 비교해서 출력하거나 스택에 넣는 과정을 반복하도록 했다.  
+여는 괄호가 등장하면 스택에 넣고, 닫는 괄호가 등장하면 여는 괄호를 만날 때까지 스택에서 꺼내도록 하였다.  
+피연산자는 순서대로 그대로 출력하면 된다.  
+마지막으로, 식이 끝까지 진행된 이후 스택에 남은 연산자를 출력해주었다.  
+
 ```python
 exp = input()
 
 stack = []
+# 우선순위, 여는 괄호는 닫는 괄호를 만날 때까지 유지되어야 하므로 가장 마지막 우선순위를 가진다.
 prio = {'*': 1, '/': 1, '+': 2, '-':2, '(':3}
 for e in exp:
-	if e == '(':
+	if e == '(':							# 여는 괄호인 경우
 		stack.append(e)
-	elif e == ')':
+	elif e == ')':							# 닫는 괄호인 경우
 		while 1:
 			if stack[-1] == '(':
 				stack.pop()
 				break
 			print(stack.pop(), end = '')
-	elif e in prio:
+	elif e in prio:							# 연산자인 경우
 		if not stack:
 			stack.append(e)
 		else:
@@ -31,10 +44,10 @@ for e in exp:
 				if not stack:
 					stack.append(e)
 					break
-	else:
+	else:								# 피연산자인 경우
 		print(e, end = '')
 
-while stack:
+while stack:								# 스택에 남은 연산자 출력
 	print(stack.pop(), end = '')
 
 print('')
