@@ -15,6 +15,6 @@ sidebar-category:
   - title: "카테고리"
     children:
       - title: "백준"
-        url: "/백준"
+        url: "/BOJ"
       - title: "알고리즘"
-        url:  "/알고리즘"
+        url:  "/Algorithm"
