@@ -1,7 +1,7 @@
 ---
-title: "알고리즘"
+title: "Algorithm"
 layout: archive
-permalink: /알고리즘
+permalink: /Algorithm
 ---
 
 
