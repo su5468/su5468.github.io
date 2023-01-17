@@ -1,7 +1,7 @@
 ---
-title: "백준"
+title: "BOJ"
 layout: archive
-permalink: /백준
+permalink: /BOJ
 ---
 
 
