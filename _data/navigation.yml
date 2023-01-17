@@ -14,7 +14,7 @@ main:
 sidebar-category:
   - title: "카테고리"
     children:
-      - title: "백준"
+      - title: "BOJ"
         url: "/BOJ"
-      - title: "알고리즘"
+      - title: "Algorithm"
         url:  "/Algorithm"
