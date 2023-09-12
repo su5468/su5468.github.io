@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://su5468.github.io/sitemap.xml
