@@ -2,7 +2,6 @@
 title: "BOJ"
 layout: archive
 permalink: /BOJ
-author_profile: true
 ---
 
 {% assign posts = site.categories.BOJ %}  
