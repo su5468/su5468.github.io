@@ -20,7 +20,7 @@ title                    : "김낭만 블로그"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "김낭만"
-description              : "백준 문제해결 기록 남기는 사이트."
+description              : "PS와 개발 기록."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -105,14 +105,14 @@ analytics:
 # Site Author
 author:
   name             : "김낭만"
-  avatar           : "https://avatars.githubusercontent.com/u/81351829?v=4"# path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "코딩응애"
+  avatar           : "https://avatars.githubusercontent.com/u/81351829?v=4" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "재밌거나 필요하다고 생각하는 걸 만듭니다."
   location         : "서울Seoul"
   email            :
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:su5468@naver.com"
+      url: "mailto:su5468@korea.ac.kr"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
@@ -124,7 +124,7 @@ author:
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
+      url: "https://github.com/su5468"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
