@@ -286,9 +286,18 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: true
+      read_time: # true
       comments: # true
       share: true
       related: true
       sidebar:
         nav: "sidebar-category"
+  - scope:
+      path: ""
+      type: pages
+    values:
+      author_profile: true
+      sidebar:
+        nav: "sidebar-category"
+      
+    
