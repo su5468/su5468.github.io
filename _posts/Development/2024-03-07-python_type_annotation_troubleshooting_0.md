@@ -14,7 +14,7 @@ title: 파이썬 타입 어노테이션 트러블슈팅 0
 물론 파이썬이 동적 타이핑 언어라는 철학은 변하지 않으므로 어노테이션 자체는 아무런 역할을 하지 않는다.  
 즉, 타입 어노테이션은 어디까지나 서드파티 타입 체커를 위해 제공되는 기능이다.  
 
-# `typing.TYPE_CHECKING`
+# typing.TYPE_CHECKING
 기타 기본적인 내용은 구글링해도 잘 나올 것이라 믿고,  
 여기서 다루고 싶은 것은 런타임에 불필요하게 모듈을 불러오지 않고 타이핑을 하고 싶을 때를 위한 트러블슈팅이다.  
 
@@ -76,7 +76,7 @@ egg: list[ForwardRef("SomeClass")]  # After
 1. `typing.List`와 같은 `typing` 모듈 앨리어스를 사용하면 문자열로 타입을 참조하기.
 2. `list`와 같은 실제 클래스를 사용하면 `typing.ForwardRef()`를 사용해서 타입을 참조하기.
 
-# `from __future__ import annotations`
+# from __future__ import annotations
 
 그런데, 이 방법도 조금 복잡하다.  
 전방참조니 뭐니 헷갈리는 경우도 많고, 일관적이지도 않아서 가독성도 떨어질 것이다.  
