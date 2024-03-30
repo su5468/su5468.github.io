@@ -79,3 +79,8 @@ some_var = SomeClass(1, "eggtart")
 some_var.spam
 some_var[0]
 ```
+
+# 참조
+
+[파이썬 공식문서 - collections](https://docs.python.org/3/library/collections.html#collections.namedtuple)  
+[파이썬 공식문서 - typing](https://docs.python.org/ko/dev/library/typing.html#typing.NamedTuple) 

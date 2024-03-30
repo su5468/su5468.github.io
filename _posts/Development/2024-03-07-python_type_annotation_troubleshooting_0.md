@@ -112,6 +112,6 @@ egg: list[SomeClass]
 
 # 참조
 
-[파이썬 공식문서 - typing](https://docs.python.org/ko/dev/library/typing.html)  
-[PEP 563](https://peps.python.org/pep-0563/)  
-[PEP 585](https://peps.python.org/pep-0585/)  
+- [파이썬 공식문서 - typing](https://docs.python.org/ko/dev/library/typing.html)
+- [PEP 563](https://peps.python.org/pep-0563/)
+- [PEP 585](https://peps.python.org/pep-0585/)
