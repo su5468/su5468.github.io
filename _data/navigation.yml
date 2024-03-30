@@ -2,14 +2,14 @@
 main:
 #   - title: "Quick-Start Guide"
 #     url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+# - title: "About"
+#   url: https://mmistakes.github.io/minimal-mistakes/about/
+# - title: "Sample Posts"
+#   url: /year-archive/
+# - title: "Sample Collections"
+#   url: /collection-archive/
+# - title: "Sitemap"
+#   url: /sitemap/
 
 sidebar-category:
   - title: "카테고리"
@@ -17,6 +17,8 @@ sidebar-category:
       - title: "BOJ"
         url: "/BOJ"
       - title: "Algorithm"
-        url:  "/Algorithm"
+        url: "/Algorithm"
       - title: "Development"
         url: "/Development"
+      - title: "/Study"
+        url: "/Study"
